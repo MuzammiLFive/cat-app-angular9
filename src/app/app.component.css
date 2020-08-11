@@ -1,0 +1,25 @@
+.info {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+.span {
+  position: sticky;
+}
+.add-button {
+  display: inline-block;
+  font-weight: 600;
+  font-size: large;
+  font-style: oblique;
+  background-color: darkblue;
+  color: rgb(212, 248, 248);
+  width: max-content;
+  cursor: pointer;
+  padding: 15px 32px;
+}
