@@ -1,0 +1,5 @@
+<div class="container" *ngIf="cats">
+  <div class="cats" *ngFor="let cat of cats">
+    <img [src]="cat" alt="Random cat image!" width="600" height="500" />
+  </div>
+</div>

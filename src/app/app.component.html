@@ -1,14 +1,6 @@
-<div class="info">
-  <div class="row">
-    <h3>CATS!!!</h3>
-  </div>
-</div>
-<span>
-  <input class="add-button" type="button" (click)="addCat()" value="Click to ADD">
-</span>
-<hr />
 <div class="container">
-  <div class="cats" *ngFor="let cat of cats">
-    <img [src]="cat" alt="Random cat image!" width="600" height="500"/>
-  </div>
+  <app-header (newCat)="addCat()"></app-header>
+  <hr>
+  <app-body [cats]="cats"></app-body>
 </div>
+
